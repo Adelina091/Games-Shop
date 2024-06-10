@@ -1,0 +1,36 @@
+.details-back{
+    background: black;
+    height: 100vh;
+}
+.details-hat{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    animation: fadeInAnimation ease 1s;
+}
+.details-main{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    animation: fadeInAnimation ease 1s;
+}
+.left-block{
+    text-align: center;
+    background: #302e3e;
+    border-radius: 10px;
+
+}
+.left-block h2{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.left-block button{
+    margin-bottom: 10px;
+}
+.right-block{
+    width: 70%;
+}
+.right-block h2{
+    margin: 0px;
+    margin-bottom: 20px;
+}
